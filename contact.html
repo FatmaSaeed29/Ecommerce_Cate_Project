@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    
+    <title>Basilica Coffee Shop</title>
+</head>
+<body> 
+
+<div class="arrow" id="arrow">
+  <a href="#" class="arrow">
+    <i class="fas fa-arrow-circle-up"></i>
+  </a>
+</div>
+<!--------- Start NavBar Section --------->
+<nav class="nav " >
+  <div class="container">
+    <a href="cart.html">
+      <div class="cart">
+        <!-- <i class="fa-regular fa-cart-shopping mt-2 text-light fs-5"></i> -->
+        <i class="fas fa-bag-shopping mt-2 text-light fs-5"></i>
+        <span id="cartAmount" class="cartAmount">0</span>
+      </div><!-- /cart -->
+    </a>
+      <div class="main_list" id="mainListDiv">
+          <ul>
+            <div class="left ms-auto">
+              <li><a href="index.html" class="home" >Home</a></li>
+              <li><a href="about.html" class="midLeft">About</a></li>
+              <li><a href="offer.html">Offer</a></li>
+            </div>
+              <div class="logo">
+                  <a href="#">
+                      <img src="images/logo.png" alt="">
+                  </a>
+              </div>
+              <div class="right me-auto">
+                <li><a href="book.html">Reservation </a></li>
+                <li><a href="shop.html" class="midRight">shop</a></li>
+                <li><a href="#">Contact</a></li>
+              </div>
+          </ul>
+      </div>
+      <div class="media_button">
+          <button class="main_media_button" id="mediaButton">
+              <span></span>
+              <span></span>
+              <span></span>
+          </button>
+      </div>
+  </div>
+</nav>
+<!--------- End NavBar Section --------->
+
+<!--------- Start Welcome Section --------->
+<div class="contact-carousel">
+  <div class="carousel-item-rgba">
+      <div class="welcome-content">
+          <h4 class="text-light welcoming-phrase">- We Wait For Your Message Every Day -</h4>
+          <h1 class="welcome-title text-light">CONTACT US</h1>
+        </div> <!-- /welcome-content -->
+  </div> <!-- /carousel-item-rgba -->
+</div> <!-- /productDetails-carousel -->
+<img src="images/wave.png" class="wave" alt="">
+<!--------- End Welcome Section --------->
+
+<!--------- Start ContactForm Section --------->
+<section class="contactUs-content">
+    <div class="contactUs-form">
+        <h1>JUST DROP A LINE!</h1>
+        <p>If you have any questions or concerns, just write a question and we will reply you within 24 hours, we are always welcome.</p>
+        <form>
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Name *">
+                <label for="name">Name *</label>
+                <p class="errorMessage hide" id="contact-name-error">
+                    Name is required !
+                </p>
+                <p class="errorMessage hide" id="contact-name-valid">
+                    Name Must be Characters only !
+                </p>
+               
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="Email" placeholder="Email address *">
+                <label for="Email">Email address *</label>
+                <p class="errorMessage hide" id="contact-email-error">
+                    Email is Required !
+                </p>
+                <p class="errorMessage hide" id="contact-email-validError">
+                    Email is Not Valid !
+                </p>
+            </div>
+            <div class="form-floating mb-3 ">
+                <input type="password" class="form-control" id="Password" placeholder="Password *">
+                <label for="Password">Password *</label>
+                <p class="errorMessage hide passError" id="contact-pass-valid">
+                    Password Must Be 8 Characters At Least !
+                </p>
+
+                <p class="errorMessage hide passError" id="contact-pass-error">
+                    Password is Required !
+                </p>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="ConfirmPassword" placeholder="Confirm Password *">
+                <label for="ConfirmPassword">Confirm Password *</label>
+                <p class="errorMessage hide passError" id="contact-pass-confirm">
+                    Password is Not The Same !
+                </p>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Message</label>
+                <p class="errorMessage hide passError" id="contact-msg-error">
+                    Message is Required !
+                </p>
+            </div>
+            <button type="button" class="btn btn-book-form" id="contactSubmitBtn">Contact Us</button>
+        </form>
+    </div> <!-- /contactUs-form -->
+
+    <div class="contactUs-info">
+        <div class="contactUs-info-top">
+            <div class="contactUs-info-details">
+                <p><i class="fa-regular fa-location-dot"></i></p>
+                <h4>ADDRESS</h4>
+                <p>4517 Washington Ave.</p>
+                <p>Manchester, Kentucky 39495, USA</p>
+            </div> <!-- /contactUs-info-details -->
+
+            <div class="contactUs-info-details">
+                <p><i class="fa-light fa-envelope gmail"></i></p>
+                <h4>EMAIL ADDRESS</h4>
+                <p><a href="#">Basilicocoffee@gmail.com</a></p>
+                <p><a href="#">reservations@bassilico.com</a></p>
+            </div> <!-- /contactUs-info-details -->
+
+        </div> <!-- /contactUs-info-top -->
+
+        <div class="contactUs-info-bottom">
+            <div class="contactUs-info-details">
+                <p><i class="fa-regular fa-phone-volume"></i></p>
+                <h4>PHONE NUMBER</h4>
+                <p>Support: (540) 218-2423</p>
+                <p>Book a table: (426) 486-1263</p>
+            </div> <!-- /contactUs-info-details -->
+
+            <div class="contactUs-info-details mt-5 ">
+                <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                <h4>SOCIAL MEDIA</h4>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-regular fa-envelope gmail-icon"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div> <!-- /contactUs-info-details -->
+
+        </div> <!-- /contactUs-info-bottom -->
+    </div> <!-- /contactUs-info -->
+</section>
+<!--------- End ContactForm Section --------->
+
+
+
+<!--------- Start Footer Section --------->
+<footer class="reveal">
+  <img src="images/footer1.png" alt="" class="footer1">
+  <img src="images/footer2.png" alt="" class="footer2">
+  <div class="footerContent ">
+    <div class="footerContentDetails">
+      <img src="images/footerImg.png" alt="">
+      <p class="footerContentText pt-3">
+        Welcome to our Basilico Coffee House. 
+        Lorem simply text amet cing elit aenean feugiat. t hendrerit mi pulvinar vel.
+      </p>
+    </div> <!-- /footerContentDetails -->
+
+    <div class="footerContentContact">
+      <h4 class="footerContentHeading">Contact</h4>
+      <div class="Contact-Location">
+        <p class="text mt-3">Location</p>
+        <p class="details mb-5">4517 Washington Ave.</p>
+      </div> <!-- /Contact-Location -->
+      <div class="Contact-Reservation">
+        <p class="text">BOOK A TABLE:</p>
+        <p class="details">Basilicofood123@gmail.com <br>(734) 665-1852</p>
+      </div> <!-- /Contact-Reservation -->
+    </div> <!-- /footerContentContact -->
+
+    <div class="footerContentHourOpen">
+      <h4 class="footerContentHeading">Hour Open</h4>
+      <ul class="list-unstyled mt-3">
+        <li>
+          <span class="title mt-5">Monday - Friday : </span>
+          <span class="time">9:00- 22:00</span>
+        </li>
+        <li>
+          <span class="title">Saturday: </span>
+          <span class="time">10:00 - 23:00</span>
+        </li>
+        <li>
+          <span class="title">Sunday: </span>
+          <span class="time"> 5:00 - 23:00</span>
+        </li>
+        <li>
+          <span class="title">Holidays: </span>
+          <span class="time">Closed</span>
+        </li>
+        <li>
+          <span class="title">Happy Hours:  </span>
+          <span class="time">18:00 - 20:00</span>
+        </li>
+      </ul>
+    </div><!-- /footerContentHourOpen -->
+
+    <div class="footerContentNews ">
+      <h4 class="footerContentHeading">NEWLETTERS & EVENT</h4>
+      <p class="mt-3">Register your email to not miss any news and offers from us!</p>
+      <form action="">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2" required>
+          <button type="submit" style="background-color: transparent; border: none;">
+            <i class="fa-solid fa-paper-plane-top"></i>
+          </button>
+        </div>
+        <input type="checkbox">
+        <label >I agree to the Privacy Policy</label>
+      </form> <!-- /form -->
+    </div><!-- /footerContentNews -->
+  </div> <!-- /footerContent -->
+
+  <div class="footer">
+    <div class="line"></div>
+    <i class="fa-solid fa-coffee-bean mt-1 footer-icon"></i>
+    <div class="line"></div>
+    <div class="end-footer">
+      <div class="enf-footer-title">
+        <p class="ms-auto">Copyright © 2024 Fatma Saeed. All Rights Reserved.</p>
+      </div>
+      <div class="footer-social me-auto">
+        <span class="me-4">Follow Us:</span>
+        <i class="fa-brands fa-facebook fs-5"></i>
+        <i class="fa-brands fa-square-instagram fs-5 mx-3"></i>
+        <i class="fa-brands fa-youtube fs-5 me-3"></i>
+        <i class="fa-brands fa-twitter fs-5"></i>
+      </div> <!-- /footer-social -->
+    </div> <!-- /end-footer -->
+  </div> <!-- /footer -->
+</footer>
+<!--------- End Footer Section --------->
+
+<script>
+    
+// contact us form
+
+var nameInput = document.getElementById("name");
+var emailInput = document.getElementById("Email");
+var passwordInput = document.getElementById("Password");
+var confirmPasswordInput = document.getElementById("ConfirmPassword");
+var messageInput = document.getElementById("floatingTextarea");
+
+var nameError = document.getElementById("contact-name-error");
+var contact_name_valid = document.getElementById("contact-name-valid");
+var emailError = document.getElementById("contact-email-error");
+var emailValidError = document.getElementById("contact-email-validError");
+var passwordError = document.getElementById("contact-pass-error");
+var passwordValidError = document.getElementById("contact-pass-valid");
+var confirmPasswordError = document.getElementById("contact-pass-confirm");
+var messageError = document.getElementById("contact-msg-error");
+
+
+var contactSubmitBtn = document.getElementById("contactSubmitBtn");
+
+
+contactSubmitBtn.addEventListener("click", validateContactForm);
+
+function validateContactForm() {
+    var name = nameInput.value;
+    var containsNumbers = /\d/.test(name);
+    if (nameInput.value === "") {
+        nameError.classList.remove("hide");
+        nameInput.style.border = "1px solid red";
+    } else {
+        nameError.classList.add("hide");
+        nameInput.style.border = "1px solid green";
+    }
+
+    if (containsNumbers) {
+        contact_name_valid.classList.remove("hide"); 
+        nameInput.style.border = "1px solid red";
+    } else {
+        contact_name_valid.classList.add("hide"); 
+        // nameInput.style.border = "1px solid green";
+    }
+
+    if (emailInput.value === "") {
+        emailError.classList.remove("hide");
+        emailInput.style.border = "1px solid red";
+    } else {
+        emailError.classList.add("hide");
+        emailInput.style.border = "1px solid green";
+    }
+
+    if (!/^[a-z]{3,}\d*@(yahoo|gmail)(.com)$/.test(emailInput.value)) {
+        emailValidError.classList.remove("hide");
+        emailInput.style.border = "1px solid red";
+    } else {
+        emailValidError.classList.add("hide");
+        emailInput.style.border = "1px solid green";
+    }
+
+    if (passwordInput.value === "") {
+        passwordError.classList.remove("hide");
+        passwordInput.style.border = "1px solid red";
+    } else {
+        passwordError.classList.add("hide");
+        passwordInput.style.border = "1px solid green";
+    }
+
+    if (confirmPasswordInput.value === "") {
+        confirmPasswordError.classList.remove("hide");
+        confirmPasswordInput.style.border = "1px solid red";
+    } else {
+        confirmPasswordError.classList.add("hide");
+        confirmPasswordInput.style.border = "1px solid green";
+    }
+
+    if (passwordInput.value.length < 8 || passwordInput.value.length > 8) {
+        passwordValidError.classList.remove("hide");
+    } else {
+        passwordValidError.classList.add("hide");
+    }
+
+    if (passwordInput.value !== confirmPasswordInput.value) {
+        confirmPasswordError.classList.remove("hide");
+        passwordInput.style.border = "1px solid red";
+    } else {
+        confirmPasswordError.classList.add("hide");
+    }
+
+    if (messageInput.value === "") {
+        messageError.classList.remove("hide");
+        messageInput.style.border = "1px solid red";
+    } else {
+        messageError.classList.add("hide")
+        messageInput.style.border = "1px solid green";;
+    }
+}
+// scroll reveal
+function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 100;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", reveal);
+
+</script>
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/all.js"></script>
+  <script src="js/shop.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/productDetails.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+{
+    "products":[
+        { 
+            "id": 13, 
+            "name": "Simple Bread Meal 2", 
+            "price": 25.00 ,
+            "category" : "bread" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/5rjzjyH/product-13-bread2.jpg"
+        },
+        
+        { 
+            "id": 4, 
+            "name": " Hot Chocolate", 
+            "price": 65.00 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/qD45KCG/product-4.jpg"
+        },
+        { 
+            "id": 5, 
+            "name": "Iced Caramel Latte", 
+            "price": 54.00 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/XFtL5n6/product-5.jpg"
+        },
+        { 
+            "id": 6, 
+            "name": "Coffee Mug ", 
+            "price": 41.00 ,
+            "category" : "mug" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/GpcFnht/product-6.jpg"
+        },
+        { 
+            "id": 7, 
+            "name": "Breakfast Meal 1", 
+            "price": 54.00 ,
+            "category" : "breakfast" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/gDX5f19/product-7-breakfast1.jpg"
+        },
+        { 
+            "id": 8, 
+            "name": "Breakfast Meal 2", 
+            "price": 65.00 ,
+            "category" : "breakfast" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/ZfTMJbN/product-8-breakfast2.jpg"
+        },
+        { 
+            "id": 9, 
+            "name": "Breakfast Meal 3", 
+            "price": 60.50 ,
+            "category" : "breakfast" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/fGMBw9X/product-9-breakfast3.jpg"
+        },
+        { 
+            "id": 20, 
+            "name": "Mocha", 
+            "price": 42.99 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/fnDhQL1/new-Drink4.jpg"
+        },
+        { 
+            "id": 10, 
+            "name": "Breakfast Meal 4", 
+            "price": 45.00 ,
+            "category" : "breakfast" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/pnDztww/product-10-breakfast4.jpg"
+        },
+        { 
+            "id": 11, 
+            "name": "hot cafe latte", 
+            "price": 47.00 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/4tRtpBn/product-11-breakfast5.jpg"
+        },
+          
+        { 
+            "id": 3, 
+            "name": "Sugar Black Coffee", 
+            "price": 20.00 ,
+            "category" : "mug" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/w0hr2qQ/product-3.png"
+        },
+        { 
+            "id": 12, 
+            "name": "Simple Bread Meal 1", 
+            "price": 35.00 ,
+            "category" : "bread" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/ZVGdTjQ/product-12-bread1.jpg"
+        },
+        { 
+            "id": 19, 
+            "name": "frappuccino white chocolate", 
+            "price": 29.50 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/gRk98cF/new-Drink3.jpg"
+        },
+        
+        { 
+            "id": 14, 
+            "name": "Simple Bread Meal 3", 
+            "price": 41.00 ,
+            "category" : "bread" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/s9NFFqN/product-14-bread3.webp"
+        },
+        { 
+            "id": 2, 
+            "name": "Milk Ice Coffee", 
+            "price": 44.00 ,
+            "category" : "mug" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/X2WQhWw/product-2.png"
+        },
+        { 
+            "id": 15, 
+            "name": "Simple Bread Meal 4", 
+            "price": 43.00 ,
+            "category" : "bread" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/dbww11R/product-15-bread4.jpg"
+        },
+        { 
+            "id": 17, 
+            "name": "Frozen Caramel Latte", 
+            "price": 34.00 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/0GJ3pSx/new-Drink1.webp"
+        },
+        { 
+            "id": 18, 
+            "name": "Chocolate Banana Smoothie.", 
+            "price": 34.00 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/fkW1xmb/new-Drink2.jpg"
+        },
+        { 
+            "id": 1, 
+            "name": "Iced Coffee", 
+            "price": 51.00 ,
+            "category" : "mug" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/rtcD8mm/product-16-bread5.webp"
+            
+        },
+        { 
+            "id": 16, 
+            "name": "Iced Coffee", 
+            "price": 43.00 ,
+            "category" : "drinks" ,
+            "description" : "Simple and balanced. Alexander Petillo brings together flavors and specialties from Italy and beyond to create his own culinary world, full of surprising artistry. Vestibulum mollis dolor vel imperdiet lacinia." ,
+            "image" : "https://i.ibb.co/yh8qTpB/product-17-coffee.jpg"
+        }
+    ]
+}
+

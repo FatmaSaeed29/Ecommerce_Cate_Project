@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/details.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    
+    <title>Basilica Coffee Shop</title>
+
+    <style>
+      .fa-facebook{
+    color: blue;
+    font-size: 30px !important;
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-facebook:hover{
+    color: rgb(61, 61, 243);
+}
+.fa-square-instagram{
+    color: #e4405f;
+    font-size: 30px !important;
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-square-instagram:hover{
+    color: #ec627b;
+}
+.fa-youtube{
+    color: red;
+    font-size: 30px !important;
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-youtube:hover{
+    color: rgb(252, 73, 73); 
+}
+.fa-twitter{
+    color: rgb(91, 205, 243);
+    font-size: 30px !important;
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-twitter:hover{
+    color: rgb(138, 221, 248);
+}
+    </style>
+</head>
+<body> 
+
+<!--------- Start NavBar Section --------->
+<nav class="nav " style="position: fixed !important;">
+    <div class="container">
+      <div class="cart">
+        <i class="fa-regular fa-cart-shopping mt-2 text-light fs-5"></i>
+        <span id="cartAmount" class="cartAmount">0</span>
+      </div><!-- /cart -->
+        <div class="main_list" id="mainListDiv">
+            <ul>
+              <div class="left ms-auto">
+                <li><a href="index.html" class="home" >Home</a></li>
+                <li><a href="#" class="midLeft">About</a></li>
+                <li><a href="#">work</a></li>
+              </div>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="right me-auto">
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="#" class="midRight">dcontact</a></li>
+                  <li><a href="#">dcontact</a></li>
+                </div>
+            </ul>
+        </div>
+        <div class="media_button">
+            <button class="main_media_button" id="mediaButton">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </div>
+  </nav>
+  <!--------- End NavBar Section --------->
+
+<!--------- Start Welcome Section --------->
+<div class="productDetails-carousel">
+    <div class="carousel-item-rgba">
+        <div class="welcome-content">
+            <h4 class="text-light welcoming-phrase">- Dive into the Details of Your Favorite Brew -</h4>
+            <h3 class="welcome-title text-light">Shop Item - Details</h3>
+          </div> <!-- /welcome-content -->
+    </div> <!-- /carousel-item-rgba -->
+</div> <!-- /productDetails-carousel -->
+<img src="images/wave.png" class="wave" alt="">
+<!--------- End Welcome Section --------->
+
+
+
+
+<div id="productDetailsContainer">
+    <!-- Product details will be displayed here in js file -->
+</div>
+
+
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="js/all.js"></script>
+  <!-- <script src="js/script.js"></script> -->
+  <script src="js/shop.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/productDetails.js"></script>
+</body>
+</html>
